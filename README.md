@@ -67,6 +67,14 @@ Install the project dependencies:
 poetry install
 ```
 
+To start a shell in the project's virtual environment, run the following command:
+
+```
+poetry shell
+```
+
+When you open the project in Visual Studio Code, it will automatically activate the virtual environment.
+
 ## Cloud-based Development
 This project supports using Github Codespace (https://github.com/features/codespaces) to develop either in a web browser or locally using Visual Studio Code Remote (https://code.visualstudio.com/docs/remote/containers).
 
