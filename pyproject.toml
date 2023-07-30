@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "malina-bot"
+version = "0.1.0"
+description = "An experiment in retrieval augmented generation"
+authors = ["Jeff Devine <jeffdevine@gmail.com>"]
+readme = "README.md"
+packages = [{include = "malina_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^4.9.3"
+beautifulsoup4 = "^4.12.2"
+chromadb = "^0.4.3"
+ipywidgets = "^8.0.7"
+langchain = "^0.0.247"
+lark = "^1.1.7"
+openai = "^0.27.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
