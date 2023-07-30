@@ -1,14 +1,21 @@
 # Malina Bot
 This repo is an experiment using retrieval augmented generation to create a chatbot.
 
-## Local Development
+# Environment Setup
+## Environment Variables
+The following environment variables are used to interact with OpenAI API:
+
+|Name | Description |
+|---|---|
+|OPENAI_API_KEY | Your OpenAI API Key |
+
+## Dependencies
 To install locally, you'll need the following:
 
  * [Homebrew](https://brew.sh)
  * [Pyenv](https://github.com/pyenv/pyenv)
  * [Poetry](https://python-poetry.org)
 
-## Installing Dependencies
 These instructions assume you are using macOS. For other operating systems, see the [Cloud-based Development](#cloud-based-development) section below.
 
 ### Homebrew
@@ -72,8 +79,6 @@ To start a shell in the project's virtual environment, run the following command
 ```
 poetry shell
 ```
-
-When you open the project in Visual Studio Code, it will automatically activate the virtual environment.
 
 ## Cloud-based Development
 This project supports using Github Codespace (https://github.com/features/codespaces) to develop either in a web browser or locally using Visual Studio Code Remote (https://code.visualstudio.com/docs/remote/containers).
